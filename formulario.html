@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Consumo de Energia</title>
+</head>
+<body>
+    <h1>Consumo Anual de Energia da Lavadora de Roupas</h1>
+    <form action="/resultado" method="post">
+        <label for="nome">Nome do Aluno:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <h3>Consumo Mensal (kWh):</h3>
+        <div>
+            <label for="janeiro">Janeiro:</label>
+            <input type="number" id="janeiro" name="consumo" required><br>
+            <label for="fevereiro">Fevereiro:</label>
+            <input type="number" id="fevereiro" name="consumo" required><br>
+            <label for="marco">Março:</label>
+            <input type="number" id="marco" name="consumo" required><br>
+            <label for="abril">Abril:</label>
+            <input type="number" id="abril" name="consumo" required><br>
+            <label for="maio">Maio:</label>
+            <input type="number" id="maio" name="consumo" required><br>
+            <label for="junho">Junho:</label>
+            <input type="number" id="junho" name="consumo" required><br>
+            <label for="julho">Julho:</label>
+            <input type="number" id="julho" name="consumo" required><br>
+            <label for="agosto">Agosto:</label>
+            <input type="number" id="agosto" name="consumo" required><br>
+            <label for="setembro">Setembro:</label>
+            <input type="number" id="setembro" name="consumo" required><br>
+            <label for="outubro">Outubro:</label>
+            <input type="number" id="outubro" name="consumo" required><br>
+            <label for="novembro">Novembro:</label>
+            <input type="number" id="novembro" name="consumo" required><br>
+            <label for="dezembro">Dezembro:</label>
+            <input type="number" id="dezembro" name="consumo" required><br><br>
+        </div>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
